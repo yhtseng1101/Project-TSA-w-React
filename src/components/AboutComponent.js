@@ -15,15 +15,20 @@ class About extends Component {
                                 <h1>Taiwanese Student Association at UT Dallas</h1>
                                 <hr />
                                 <p>Taiwanese Student Association at UT Dallas ("UTD TSA") is an organization formed by a group of students voluntarily devoting to provide Taiwanese students resources of networking, career path consultation, and information to get around the campus and in the Dallas area. </p>
-                                <a className="btn btn-primary btn-lg" href="/about" role="button">Learn more</a>
                             </div>						
                         </div>
                     </div>
+                    
                 </Jumbotron>
 
-                <div className="container" id="wordsFromPresident">
+                <hr id="aboutHr" />
+                
+                <div className="container mt-5">
                     <div className="row">
                         <div className="col-sm-6">
+                            <img src="/img/UTDTree.JPG" alt="UTDTree" id="UTDTree"/>
+                        </div>
+                        <div className="col">
                             <h4>Words from the President:</h4>
                                 <p>Fluke barque man-of-war topmast to go on account gangplank cutlass interloper overhaul lugger. Hail-shot no prey, no pay measured fer yer chains log take a caulk American Main marooned case shot bilge rat pillage. Ballast coffer long boat yardarm rigging keelhaul pink galleon hearties mutiny. </p>
 
@@ -32,7 +37,7 @@ class About extends Component {
                             </div>
                         </div>  
                     </div>
-                <div className="container">   
+                <div className="container mt-5 mb-4">   
                     <div className="row text-center">
                         <div className="col-sm-12 col-md-4 mt-4">
                             <div><i className="fa fa-calendar fa-5x" /></div>   
